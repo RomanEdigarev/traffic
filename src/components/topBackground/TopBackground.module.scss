@@ -1,0 +1,62 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+  }
+}
+
+.background {
+  height: 800px;
+  width: 100%;
+  max-width: 1920px;
+  max-height: 1080px;
+  background-image: linear-gradient(-45deg, rgba(255, 237, 186, 1), rgba(238, 77, 71, 1));
+}
+
+.city {
+  top: 138px;
+  right: 0;
+}
+
+.circle {
+  top: -53px;
+  right: -200px;
+}
+
+.ground {
+  top: 709px;
+  right: 0;
+}
+
+.rightPlants {
+  top: 430px;
+  right: 0;
+}
+
+.plantsInAuto {
+  top: 638.91px;
+  left: 0px;
+}
+
+.man {
+  top: 444.78px;
+  right: 710px;
+}
+
+.woman {
+  top: 448.98px;
+  right: 545px;
+}
+
+.auto {
+  top: 790px;
+  left: 0px;
+}

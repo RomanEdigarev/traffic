@@ -1,0 +1,33 @@
+
+.buttonContainer {
+  background-color: #EE4D47;
+  border-radius: 5px;
+  
+  width: 158px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease-in-out;
+
+  .buttonText {
+    font-size: 0.89em;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: #CD2827;
+    cursor: pointer;
+  }
+
+}
+
+
+
