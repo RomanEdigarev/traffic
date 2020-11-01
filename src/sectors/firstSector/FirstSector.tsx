@@ -12,6 +12,7 @@ const FirstSector = () => {
             <MainTitle/>
             <ButtonGetStarted/>
             <TopBackground/>
+
         </div>
     );
 };

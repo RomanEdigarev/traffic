@@ -7,14 +7,18 @@
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
   position: relative;
+  z-index: 1;
   margin: 0 auto;
   max-width: 1920px;
   padding-left: 288px;
   padding-right: 302.4px;
   padding-top: 40px;
+  background-color: #FEF8F5;
 }
 
 a {

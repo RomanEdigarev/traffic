@@ -1,22 +1,27 @@
 import React from 'react';
 import style from './App.module.scss'
 import FirstSector from "./sectors/firstSector/FirstSector";
-import ButtonHeader from "./components/buttons/ButtonHeader/ButtonHeader";
-import {BrowserRouter as Router, Route} from "react-router-dom";
-import NavigationMenu from "./components/navigationMenu/NavigationMenu";
-import ButtonGetStarted from "./components/buttons/ButtonGetStarted/ButtonGetStarted";
-import TopBackground from "./components/topBackground/TopBackground";
+import {BrowserRouter as Router} from "react-router-dom";
 import SecondSector from "./sectors/secondSector/SecondSector";
+import ThirdSector from "./sectors/thirdSector/ThirdSector";
+import ItemFAQ from "./components/faqs/ItemFAQ";
+import FaqContainer from "./components/faqs/FAQContainer";
+import FaqSector from "./sectors/FAQSector/FAQSector";
 
 function App() {
-  return (
-      <Router>
-          <div className={style.container}>
-              {/*<FirstSector/>*/}
-              <SecondSector/>
-          </div>
-      </Router>
-  );
+    return (
+        <Router>
+            <div className={style.container}>
+                {/*<div style={{height: "1237.55px"}}>*/}
+                {/*    <FirstSector/>*/}
+                {/*</div>*/}
+                {/*<SecondSector/>*/}
+                {/*<ThirdSector/>*/}
+                {/*<FaqContainer/>*/}
+                <FaqSector/>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

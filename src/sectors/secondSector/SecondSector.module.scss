@@ -1,5 +1,14 @@
 .container {
   width: 100%;
-  background-color: antiquewhite;
   padding-top: 82px;
+  position: relative;
+  height: 100%;
+  margin-bottom: 160px;
 }
+
+.illustration {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
