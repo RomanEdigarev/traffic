@@ -1,8 +1,41 @@
 .container {
   width: 100%;
+  max-height: 703px;
 
   display: flex;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.moreBtn {
+  width: 550px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: rgba(237, 77, 71, 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.67;
+  color: #EE4D47;
+
+  span {
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:hover span {
+    border-bottom: 3px solid #EE4D47;
+  }
+
+
 }

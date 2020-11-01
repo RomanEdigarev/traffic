@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './FAQSector.module.scss'
 import FaqContainer from "../../components/faqs/FAQContainer";
+import illustration from './Illustration.svg'
 
 const FaqSector = () => {
     return (
@@ -12,7 +13,11 @@ const FaqSector = () => {
             </div>
 
             <FaqContainer/>
+
             <div className={style.background}></div>
+            <div className={style.illustration}>
+                <img src={illustration} alt=""/>
+            </div>
 
         </div>
     );
