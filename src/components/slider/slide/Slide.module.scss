@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 420px;
+  max-width: 420px;
+  height: 360px;
+  margin-right: 20px;
+  padding: 60px 52px 40px 48px;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #402B2B;
+  font-size: 16px;
+  box-shadow: 0px 20px 40px 0px rgba(238, 77, 71, 0.1) ;
+
+}
+
+.text {
+  width: 100%;
+  font-weight: 200;
+  line-height: 2.2;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-weight: 500;
+    line-height: 2.2;
+  }
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
